@@ -1,5 +1,5 @@
 # osmgmsh-s3static
-Store and publish osmgmsh mbtiles on a static s3 site.
+Store and publish osmgmsh mbtiles on a static s3 site. [Example](https://polar-public.s3.amazonaws.com/index.html)
 
 ## Installation
 [AWS cli](https://aws.amazon.com/cli/) and [NodeJS](https://nodejs.org/en/) needs to be installed.
