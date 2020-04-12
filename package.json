@@ -1,0 +1,13 @@
+{
+  "name": "polar-public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mapbox.js",
+  "scripts": {
+    "tos3":"AWS_PROFILE=project1 aws s3 cp ./s3 s3://polar-public/ --recursive",
+    "mbtilestos3":"nvm use 6 && AWS_PROFILE=project1 mapbox-tile-copy ./mesh.mbtiles s3://polar-public/mbtiles/mesh/{z}/{x}/{y}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julien Cousineau <julien.cousineau@gmail.com>",
+  "license": "ISC"
+}
